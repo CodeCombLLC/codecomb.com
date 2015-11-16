@@ -6,6 +6,7 @@
 
 .hexagon {
     position: absolute;
+    transition: all .5s linear;
 }
 
 .hiveTop {
@@ -116,7 +117,6 @@
     border-left: 150px solid transparent;
     border-right: 150px solid transparent;
 }
-
 
 #hex-3 {
     transform: rotate(-60deg);
@@ -363,4 +363,16 @@
     display: inline-flex;
     top: -25px;
     left: 5px;
+}
+
+.hide {
+    opacity: 0.2;
+}
+
+.active-outer {
+    z-index: 9!important;
+}
+
+.active {
+    z-index: 10!important;
 }
