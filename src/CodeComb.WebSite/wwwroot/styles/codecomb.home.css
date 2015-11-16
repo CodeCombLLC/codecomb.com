@@ -298,6 +298,7 @@
     font-size: 32px;
     color: #fff;
     position: relative;
+    transition: all .2s linear;
 }
 
 #hex-1 .icon {
@@ -375,4 +376,129 @@
 
 .active {
     z-index: 10!important;
+}
+
+#hex-1-outer.active .hiveTop {
+    border-bottom: 86.5px solid #000;
+}
+
+#hex-1-outer.active .hiveCenter {
+    background: #000;
+}
+
+#hex-1-outer.active .hiveBottom {
+    border-top: 86.5px solid #000;
+}
+
+#hex-1.active .hiveTop {
+    border-bottom: 86.5px solid #000;
+}
+
+#hex-1.active .hiveCenter {
+    background: #000;
+}
+
+#hex-1.active .hiveBottom {
+    border-top: 86.5px solid #000;
+}
+
+#hex-2.active .hiveTop {
+    border-bottom: 86.5px solid #000;
+}
+
+#hex-2.active .hiveCenter {
+    background: #000;
+}
+
+#hex-2.active .hiveBottom {
+    border-top: 86.5px solid #000;
+}
+
+#hex-2-outer.active .hiveTop {
+    border-bottom: 86.5px solid #000;
+}
+
+#hex-2-outer.active .hiveCenter {
+    background: #000;
+}
+
+#hex-2-outer.active .hiveBottom {
+    border-top: 86.5px solid #000;
+}
+
+#hex-3.active .hiveTop {
+    border-bottom: 86.5px solid #000;
+}
+
+#hex-3.active .hiveCenter {
+    background: #000;
+}
+
+#hex-3.active .hiveBottom {
+    border-top: 86.5px solid #000;
+}
+
+#hex-3-outer.active .hiveTop {
+    border-bottom: 86.5px solid #000;
+}
+
+#hex-3-outer.active .hiveCenter {
+    background: #000;
+}
+
+#hex-3-outer.active .hiveBottom {
+    border-top: 86.5px solid #000;
+}
+
+#hex-4.active .hiveTop {
+    border-bottom: 86.5px solid #000;
+}
+
+#hex-4.active .hiveCenter {
+    background: #000;
+}
+
+#hex-4.active .hiveBottom {
+    border-top: 86.5px solid #000;
+}
+
+#hex-4-outer.active .hiveTop {
+    border-bottom: 86.5px solid #000;
+}
+
+#hex-4-outer.active .hiveCenter {
+    background: #000;
+}
+
+#hex-4-outer.active .hiveBottom {
+    border-top: 86.5px solid #000;
+}
+
+#hex-5.active .hiveTop {
+    border-bottom: 86.5px solid #000;
+}
+
+#hex-5.active .hiveCenter {
+    background: #000;
+}
+
+#hex-5.active .hiveBottom {
+    border-top: 86.5px solid #000;
+}
+
+#hex-5-outer.active .hiveTop {
+    border-bottom: 86.5px solid #000;
+}
+
+#hex-5-outer.active .hiveCenter {
+    background: #000;
+}
+
+#hex-5-outer.active .hiveBottom {
+    border-top: 86.5px solid #000;
+}
+
+.active .button {
+    background: #fff;
+    color: #000;
 }
