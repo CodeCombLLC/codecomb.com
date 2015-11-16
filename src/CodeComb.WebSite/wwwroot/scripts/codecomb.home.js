@@ -1,6 +1,5 @@
 ﻿var current = null;
 $(document).ready(function () {
-    $('body').height($(window).height());
     $('#hex-1').removeClass('init');
     $('#hex-1-outer').removeClass('init');
     setTimeout(function () {
