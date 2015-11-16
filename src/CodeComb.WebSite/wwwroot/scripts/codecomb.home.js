@@ -1,5 +1,27 @@
 ﻿var current = null;
 $(document).ready(function () {
+    $('#hex-1').removeClass('init');
+    $('#hex-1-outer').removeClass('init');
+    setTimeout(function () {
+        $('#hex-2').removeClass('init');
+        $('#hex-2-outer').removeClass('init');
+        setTimeout(function () {
+            $('#hex-2').removeClass('init');
+            $('#hex-2-outer').removeClass('init');
+            setTimeout(function () {
+                $('#hex-3').removeClass('init');
+                $('#hex-3-outer').removeClass('init');
+                setTimeout(function () {
+                    $('#hex-4').removeClass('init');
+                    $('#hex-4-outer').removeClass('init');
+                    setTimeout(function () {
+                        $('#hex-5').removeClass('init');
+                        $('#hex-5-outer').removeClass('init');
+                    }, 200);
+                }, 200);
+            }, 200);
+        }, 200);
+    }, 200);
     $('.group-1').hover(function () {
         current = 1;
         $('#hex-1-outer').addClass('active-outer');
