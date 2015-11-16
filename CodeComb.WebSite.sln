@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3ED4C0D6-1AB2-4848-A339-5680018255D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6DE7D9FA-3EC3-451E-A3CF-9839657BFBF8}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CodeComb.WebSite", "src\CodeComb.WebSite\CodeComb.WebSite.xproj", "{DE9A9D03-CF8E-4149-887C-B49F5BAE05F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE9A9D03-CF8E-4149-887C-B49F5BAE05F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE9A9D03-CF8E-4149-887C-B49F5BAE05F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE9A9D03-CF8E-4149-887C-B49F5BAE05F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE9A9D03-CF8E-4149-887C-B49F5BAE05F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE9A9D03-CF8E-4149-887C-B49F5BAE05F1} = {3ED4C0D6-1AB2-4848-A339-5680018255D0}
+	EndGlobalSection
+EndGlobal

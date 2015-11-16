@@ -1,0 +1,366 @@
+﻿body {
+    background: #b8d7e9;
+    background: radial-gradient(circle,#f9fcff 20%,#e2eff7 50%,#b1d4e7 100%);
+    font-family: '\5fae\8f6f\96c5\9ed1',arial,sans-serif;
+}
+
+.hexagon {
+    position: absolute;
+}
+
+.hiveTop {
+    width: 0;
+    border-top: none;
+    border-bottom: 86.5px solid #25afda;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+.hiveCenter {
+    width: 300px;
+    height: 173.3px;
+    background-color: #25afda;
+}
+
+.hiveBottom {
+    width: 0;
+    border-bottom: none;
+    border-top: 86.5px solid #25afda;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+#hex-1 {
+    transform: rotate(-40deg);
+    margin: 200px 0;
+    left: calc(50% - 150px);
+}
+
+#hex-1-outer {
+    transform: rotate(-40deg);
+    margin: 189px 0;
+    left: calc(50% - 150px);
+    z-index: -1;
+    zoom: 1.03;
+}
+
+#hex-1-outer .hiveTop {
+    border-top: none;
+    border-bottom: 86.5px solid #fff;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+#hex-1-outer .hiveCenter {
+    background: #fff;
+}
+
+#hex-1-outer .hiveBottom {
+    width: 0;
+    border-bottom: none;
+    border-top: 86.5px solid #fff;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+#hex-2 {
+    transform: rotate(-38deg);
+    margin: 300px 0;
+    left: calc(50% + 130px);
+    zoom: 0.7;
+    z-index: -2;
+}
+
+#hex-2 .hiveTop {
+    border-top: none;
+    border-bottom: 86.5px solid #fad957;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+#hex-2 .hiveCenter {
+    background: #fad957;
+}
+
+#hex-2 .hiveBottom {
+    width: 0;
+    border-bottom: none;
+    border-top: 86.5px solid #fad957;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+#hex-2-outer {
+    transform: rotate(-38deg);
+    margin: 287px 0;
+    left: calc(50% + 122px);
+    z-index: -3;
+    zoom: 0.72;
+}
+
+#hex-2-outer .hiveTop {
+    border-top: none;
+    border-bottom: 86.5px solid #fff;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+#hex-2-outer .hiveCenter {
+    background: #fff;
+}
+
+#hex-2-outer .hiveBottom {
+    width: 0;
+    border-bottom: none;
+    border-top: 86.5px solid #fff;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+
+#hex-3 {
+    transform: rotate(-60deg);
+    margin: 175px 0;
+    left: calc(50% - 310px);
+    zoom: 0.7;
+    z-index: -4;
+}
+
+#hex-3 .hiveTop {
+    border-top: none;
+    border-bottom: 86.5px solid #46c546;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+#hex-3 .hiveCenter {
+    background: #46c546;
+}
+
+#hex-3 .hiveBottom {
+    width: 0;
+    border-bottom: none;
+    border-top: 86.5px solid #46c546;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+#hex-3-outer {
+    transform: rotate(-60deg);
+    margin: 165px 0;
+    left: calc(50% - 306px);
+    zoom: 0.72;
+    z-index: -5;
+}
+
+#hex-3-outer .hiveTop {
+    border-top: none;
+    border-bottom: 86.5px solid #fff;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+#hex-3-outer .hiveCenter {
+    background: #fff;
+}
+
+#hex-3-outer .hiveBottom {
+    width: 0;
+    border-bottom: none;
+    border-top: 86.5px solid #fff;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+#hex-4 {
+    transform: rotate(-59deg);
+    margin: 270px 0;
+    left: calc(50% + 90px);
+    zoom: 0.5;
+    z-index: -4;
+}
+
+#hex-4 .hiveTop {
+    border-top: none;
+    border-bottom: 86.5px solid #c8a311;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+#hex-4 .hiveCenter {
+    background: #c8a311;
+}
+
+#hex-4 .hiveBottom {
+    width: 0;
+    border-bottom: none;
+    border-top: 86.5px solid #c8a311;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+#hex-4-outer {
+    transform: rotate(-59deg);
+    margin: 254px 0;
+    left: calc(50% + 81px);
+    zoom: 0.52;
+    z-index: -5;
+}
+
+#hex-4-outer .hiveTop {
+    border-top: none;
+    border-bottom: 86.5px solid #fff;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+#hex-4-outer .hiveCenter {
+    background: #fff;
+}
+
+#hex-4-outer .hiveBottom {
+    width: 0;
+    border-bottom: none;
+    border-top: 86.5px solid #fff;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+#hex-5 {
+    transform: rotate(-59deg);
+    margin: 880px 0;
+    left: calc(50% + 50px);
+    zoom: 0.5;
+    z-index: -2;
+}
+
+#hex-5 .hiveTop {
+    border-top: none;
+    border-bottom: 86.5px solid #187ab8;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+#hex-5 .hiveCenter {
+    background: #187ab8;
+}
+
+#hex-5 .hiveBottom {
+    width: 0;
+    border-bottom: none;
+    border-top: 86.5px solid #187ab8;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+#hex-5-outer {
+    transform: rotate(-59deg);
+    margin: 840px 0;
+    left: calc(50% + 43px);
+    zoom: 0.52;
+    z-index: -3;
+}
+
+#hex-5-outer .hiveTop {
+    border-top: none;
+    border-bottom: 86.5px solid #fff;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+#hex-5-outer .hiveCenter {
+    background: #fff;
+}
+
+#hex-5-outer .hiveBottom {
+    width: 0;
+    border-bottom: none;
+    border-top: 86.5px solid #fff;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+.icon{
+    font-size: 144px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    left: 30px;
+    top: -20px;
+    display: block;
+    position: relative;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    font-size: 32px;
+    color: #fff;
+    position: relative;
+}
+
+#hex-1 .icon {
+    transform: rotate(+40deg);
+    font-size: 120px;
+}
+
+#hex-1 .button {
+    transform: rotate(+40deg);
+    display: inline-flex;
+    top: -15px;
+    left: 15px;
+}
+
+#hex-2 .icon {
+    transform: rotate(+38deg);
+}
+
+#hex-2 .button {
+    transform: rotate(+38deg);
+    display: inline-flex;
+    top: -30px;
+    left: 30px;
+}
+
+#hex-3 .icon {
+    transform: rotate(+60deg);
+    left: 50px;
+    top: 0;
+    font-size: 114px;
+}
+
+#hex-3 .button {
+    transform: rotate(+60deg);
+    display: inline-flex;
+    top: -30px;
+    left: 15px;
+}
+
+#hex-4 .icon {
+    transform: rotate(+59deg);
+    left: 50px;
+    top: 0;
+    font-size: 114px;
+}
+
+#hex-4 .button {
+    transform: rotate(+59deg);
+    display: inline-flex;
+    top: -30px;
+    left: 15px;
+}
+
+#hex-5 .icon {
+    transform: rotate(+59deg);
+    left: 30px;
+    top: 10px;
+    font-size: 114px;
+}
+
+#hex-5 .button {
+    transform: rotate(+59deg);
+    display: inline-flex;
+    top: -25px;
+    left: 5px;
+}
